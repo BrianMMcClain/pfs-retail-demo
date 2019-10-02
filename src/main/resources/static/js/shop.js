@@ -22,6 +22,6 @@ function populateInventory(inv) {
     console.log(inv);
 
     for (i = 0; i < inv.length; i++) {
-        $("#invList").append("<li>" + inv[i].name + "</li><br />");
+        $("#invList").append("<li><input type=\"checkbox\" name=\"invCheck\" value=\"" + inv[i].id + "\">" + inv[i].name + "</li><br />");
     }
 }

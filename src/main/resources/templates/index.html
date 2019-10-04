@@ -52,7 +52,7 @@
           <a class="brand" href="#">Spring Shop</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
+              <!-- Username Display -->
             </p>
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -66,13 +66,14 @@
 
     <div class="container-fluid">
       <div class="row-fluid">
-
+    
         <!-- Item List -->
         <div class="span3">
           <div class="well sidebar-nav">
+            <h4>Inventory</h4>
             <ul class="nav nav-list" id="invList">
-
             </ul>
+            <a class="btn" href="#" onclick="checkout();">Checkout</a>
           </div>
         </div>
 
@@ -80,19 +81,19 @@
           <h1>Recommendations</h1> 
           <div class="row-fluid">
             <div class="span4">
-              <h3>Recommendation 1</h3>
-              <p>Buy Now!</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <h3 id="rec1name">User Recommendation</h3>
+              <p id="rec1desc"></p>
+              <p><a class="btn" href="#">Add To Cart &laquo;</a></p>
             </div>
             <div class="span4">
-              <h3>Recommendation 2</h3>
-              <p>Buy Now!</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <h3 id="rec2name">User Recommendation</h3>
+              <p id="rec2desc"></p>
+              <p><a class="btn" href="#">Add To Cart &laquo;</a></p>
             </div>
             <div class="span4">
-              <h3>Recommendation 3</h3>
-              <p>Buy Now!</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <h3 id="hotname">User Recommendation</h3>
+              <p id="hotdesc"></p>
+              <p><a class="btn" href="#">Add To Cart &laquo;</a></p>
             </div>
           </div>
           <div class="row-fluid">
